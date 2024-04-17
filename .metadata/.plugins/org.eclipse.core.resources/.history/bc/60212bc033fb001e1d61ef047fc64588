@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "VehicleStates.h"
+#include "OptionsDispalying.h"
+
+typedef enum{
+	turnOn=1,turnOff,quitSystem
+}states;
+
+int main(void) {
+//	2 lines from the docs to i/o with a user
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+
+//	Variables declaration:
+	states state;
+
+//	Displaying the system options:
+	displayOptions();
+//	Taking input from the user:
+	scanf("%d",&state);
+	if(state==3)
+		printf("%d",state);
+//		return EXIT_SUCCESS;
+
+
+
+
+
+
+	return EXIT_SUCCESS;
+}

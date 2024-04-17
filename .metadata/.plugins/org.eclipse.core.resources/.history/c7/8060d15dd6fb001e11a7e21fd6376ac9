@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "VehicleStates.h"
+#include "TrafficLightHandler.h"
+#include "TemperatureHandler.h"
+#include "EngineTemperatureHandler.h"
+
+void displayMenu(int * state){
+	char option;
+	int vehicleSpeed;
+	float temperature;
+	ACStates airConditionerState = off;
+	ACStates engineTempController=off;
+	printf("a)Turn off the engine.\n");
+	printf("b)Set the traffic light color\n");
+	printf("c)Set the room temperature\n");
+	printf("d)Set the engine temperature\n");
+	fflush(stdout);
+	scanf(" %c",&option);
+	switch (option) {
+	case 'a':
+		*state=turnOff;
+		break;
+	case 'b':
+		trafficLightHandler(&vehicleSpeed);
+		displayMenu(state);
+		break;
+	case 'c':
+		tempHandler(&airConditionerState,&temperature);
+		displayMenu(state);
+		break;
+	case 'd':
+		engineTempControl(&engineTempController);
+		displayMenu(state);
+		break;
+	default:
+		break;
+	}
+
+}

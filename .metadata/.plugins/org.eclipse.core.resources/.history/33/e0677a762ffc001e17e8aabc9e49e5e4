@@ -1,0 +1,87 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "VehicleStates.h"
+#include "TrafficLightHandler.h"
+#include "TemperatureHandler.h"
+#include "EngineTemperatureHandler.h"
+
+// Global variables declaration:
+int vehicleSpeed=0;
+float temperature=0;
+float engineTemp=0;
+ACStates airConditionerState = off;
+ACStates engineTempController=off;
+
+// prototype of displayMenu because I use it in handleMenu.
+void displayMenu(int * state);
+void displayVehicleState(int * state);
+
+void printMenuOptions(char *option){
+	printf("a)Turn off the engine.\n");
+	printf("b)Set the traffic light color\n");
+	printf("c)Set the room temperature\n");
+	printf("d)Set the engine temperature\n");
+	fflush(stdout);
+	scanf(" %c",option);
+
+}
+void handleMenu(char *option,int *vState){
+
+	switch (*option) {
+	case 'a':
+		*vState=turnOff;
+		break;
+	case 'b':
+		trafficLightHandler(&vehicleSpeed);
+		break;
+	case 'c':
+		tempHandler(&airConditionerState,&temperature);
+		break;
+	case 'd':
+		engineTempControl(&engineTempController,&engineTemp);
+		break;
+	default:
+		break;
+	}
+}
+
+void displayMenu(int * state){
+	char option;
+	system("cls");
+	while (option!='a'){
+		printMenuOptions(&option);
+		handleMenu(&option,state);
+		if(vehicleSpeed==30){
+			if(airConditionerState==off && temperature != 0){
+				airConditionerState=on;
+				temperature=temperature*(5.0/4)+1;
+				printf("the temp equals %f\n",temperature);
+			}
+			if(engineTempController==off && engineTemp !=0){
+				engineTempController=on;
+				engineTemp=engineTemp*(5/4)+1;
+				printf("controller is on (%d) and engine temperature equals %f\n",engineTempController,engineTemp);
+			}
+			displayVehicleState(state);
+		}
+		fflush(stdout);
+	}
+}
+void displayVehicleState(int * state){
+	if(state){
+		printf("i. Engine is ON\n");
+		if(airConditionerState==on)
+			printf("ii. AC is ON\n");
+		else
+			printf("ii. AC is OFF\n");
+		printf("iii. Vehicle Speed = %d\n",vehicleSpeed);
+		printf("iv. Room Temperature = %f\n",temperature);
+		if(engineTempController==on)
+			printf("v. Engine Temperature Controller is ON\n");
+		else
+			printf("v. Engine Temperature Controller is OFF\n");
+		printf("vi. Engine Temperature = %f\n\n",engineTemp);
+	}
+
+
+}

@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void displayOptions(int * state){
+	printf("What do you want to do?\n");
+	printf("1)Turn on the vehicle engine\n");
+	printf("2)Turn off the vehicle engine\n");
+	printf("3)Quit the system\n");
+	fflush(stdout);
+	scanf("%d",state);
+	switch(*state){
+	case 1:
+		printf("Turn on the vehicle engine\n");
+		break;
+	case 2:
+		printf("Turn off the vehicle engine\n");
+		break;
+	case 3:
+		printf("Quit the system\n");
+		break;
+	}
+	fflush(stdout);
+}

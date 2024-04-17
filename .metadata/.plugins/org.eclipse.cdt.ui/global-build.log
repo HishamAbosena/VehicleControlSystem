@@ -1,0 +1,181 @@
+22:18:45 **** Rebuild of configuration Debug for project Trial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Trial.o" "..\\src\\Trial.c" 
+gcc -o Trial.exe "src\\Trial.o" 
+Info: Nothing to build for Trial
+22:19:28 **** Incremental Build of configuration Debug for project Trial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Trial.o" "..\\src\\Trial.c" 
+gcc -o Trial.exe "src\\Trial.o" 
+22:20:41 **** Incremental Build of configuration Debug for project Trial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Trial.o" "..\\src\\Trial.c" 
+gcc -o Trial.exe "src\\Trial.o" 
+22:25:35 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TurnOnMenuDisplay.o" "..\\src\\TurnOnMenuDisplay.c" 
+gcc -o VehicleControlSystem.exe "src\\EngineTemperatureHandler.o" "src\\OptionsDisplaying.o" "src\\TemperatureHandler.o" "src\\TrafficLightHandler.o" "src\\TurnOnMenuDisplay.o" "src\\VehicleControlSystem.o" 
+22:35:17 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TurnOnMenuDisplay.o" "..\\src\\TurnOnMenuDisplay.c" 
+gcc -o VehicleControlSystem.exe "src\\EngineTemperatureHandler.o" "src\\OptionsDisplaying.o" "src\\TemperatureHandler.o" "src\\TrafficLightHandler.o" "src\\TurnOnMenuDisplay.o" "src\\VehicleControlSystem.o" 
+22:40:42 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TurnOnMenuDisplay.o" "..\\src\\TurnOnMenuDisplay.c" 
+gcc -o VehicleControlSystem.exe "src\\EngineTemperatureHandler.o" "src\\OptionsDisplaying.o" "src\\TemperatureHandler.o" "src\\TrafficLightHandler.o" "src\\TurnOnMenuDisplay.o" "src\\VehicleControlSystem.o" 
+22:44:34 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EngineTemperatureHandler.o" "..\\src\\EngineTemperatureHandler.c" 
+gcc -o VehicleControlSystem.exe "src\\EngineTemperatureHandler.o" "src\\OptionsDisplaying.o" "src\\TemperatureHandler.o" "src\\TrafficLightHandler.o" "src\\TurnOnMenuDisplay.o" "src\\VehicleControlSystem.o" 
+22:44:49 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TurnOnMenuDisplay.o" "..\\src\\TurnOnMenuDisplay.c" 
+gcc -o VehicleControlSystem.exe "src\\EngineTemperatureHandler.o" "src\\OptionsDisplaying.o" "src\\TemperatureHandler.o" "src\\TrafficLightHandler.o" "src\\TurnOnMenuDisplay.o" "src\\VehicleControlSystem.o" 
+22:48:00 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EngineTemperatureHandler.o" "..\\src\\EngineTemperatureHandler.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TurnOnMenuDisplay.o" "..\\src\\TurnOnMenuDisplay.c" 
+gcc -o VehicleControlSystem.exe "src\\EngineTemperatureHandler.o" "src\\OptionsDisplaying.o" "src\\TemperatureHandler.o" "src\\TrafficLightHandler.o" "src\\TurnOnMenuDisplay.o" "src\\VehicleControlSystem.o" 
+22:50:12 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TurnOnMenuDisplay.o" "..\\src\\TurnOnMenuDisplay.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EngineTemperatureHandler.o" "..\\src\\EngineTemperatureHandler.c" 
+gcc -o VehicleControlSystem.exe "src\\EngineTemperatureHandler.o" "src\\OptionsDisplaying.o" "src\\TemperatureHandler.o" "src\\TrafficLightHandler.o" "src\\TurnOnMenuDisplay.o" "src\\VehicleControlSystem.o" 
+22:51:39 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TurnOnMenuDisplay.o" "..\\src\\TurnOnMenuDisplay.c" 
+gcc -o VehicleControlSystem.exe "src\\EngineTemperatureHandler.o" "src\\OptionsDisplaying.o" "src\\TemperatureHandler.o" "src\\TrafficLightHandler.o" "src\\TurnOnMenuDisplay.o" "src\\VehicleControlSystem.o" 
+22:52:49 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TurnOnMenuDisplay.o" "..\\src\\TurnOnMenuDisplay.c" 
+gcc -o VehicleControlSystem.exe "src\\EngineTemperatureHandler.o" "src\\OptionsDisplaying.o" "src\\TemperatureHandler.o" "src\\TrafficLightHandler.o" "src\\TurnOnMenuDisplay.o" "src\\VehicleControlSystem.o" 
+22:53:42 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TurnOnMenuDisplay.o" "..\\src\\TurnOnMenuDisplay.c" 
+..\src\TurnOnMenuDisplay.c: In function 'displayVehicleState':
+..\src\TurnOnMenuDisplay.c:72:17: warning: comparison between pointer and integer
+   72 |         if(state!=turnOff){
+      |                 ^~
+gcc -o VehicleControlSystem.exe "src\\EngineTemperatureHandler.o" "src\\OptionsDisplaying.o" "src\\TemperatureHandler.o" "src\\TrafficLightHandler.o" "src\\TurnOnMenuDisplay.o" "src\\VehicleControlSystem.o" 
+22:54:10 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TurnOnMenuDisplay.o" "..\\src\\TurnOnMenuDisplay.c" 
+gcc -o VehicleControlSystem.exe "src\\EngineTemperatureHandler.o" "src\\OptionsDisplaying.o" "src\\TemperatureHandler.o" "src\\TrafficLightHandler.o" "src\\TurnOnMenuDisplay.o" "src\\VehicleControlSystem.o" 
+22:55:15 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TurnOnMenuDisplay.o" "..\\src\\TurnOnMenuDisplay.c" 
+..\src\TurnOnMenuDisplay.c: In function 'displayMenu':
+..\src\TurnOnMenuDisplay.c:63:62: error: lvalue required as left operand of assignment
+   63 |                                         (vehicleStates*)state=turnOff;
+      |                                                              ^
+22:55:47 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TurnOnMenuDisplay.o" "..\\src\\TurnOnMenuDisplay.c" 
+..\src\TurnOnMenuDisplay.c: In function 'displayMenu':
+..\src\TurnOnMenuDisplay.c:63:62: error: lvalue required as left operand of assignment
+   63 |                                         (vehicleStates*)state=turnOff;
+      |                                                              ^
+22:55:52 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TurnOnMenuDisplay.o" "..\\src\\TurnOnMenuDisplay.c" 
+..\src\TurnOnMenuDisplay.c: In function 'displayMenu':
+..\src\TurnOnMenuDisplay.c:63:63: error: lvalue required as left operand of assignment
+   63 |                                         (vehicleStates *)state=turnOff;
+      |                                                               ^
+22:56:49 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TurnOnMenuDisplay.o" "..\\src\\TurnOnMenuDisplay.c" 
+gcc -o VehicleControlSystem.exe "src\\EngineTemperatureHandler.o" "src\\OptionsDisplaying.o" "src\\TemperatureHandler.o" "src\\TrafficLightHandler.o" "src\\TurnOnMenuDisplay.o" "src\\VehicleControlSystem.o" 
+22:57:09 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TurnOnMenuDisplay.o" "..\\src\\TurnOnMenuDisplay.c" 
+gcc -o VehicleControlSystem.exe "src\\EngineTemperatureHandler.o" "src\\OptionsDisplaying.o" "src\\TemperatureHandler.o" "src\\TrafficLightHandler.o" "src\\TurnOnMenuDisplay.o" "src\\VehicleControlSystem.o" 
+22:58:33 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TurnOnMenuDisplay.o" "..\\src\\TurnOnMenuDisplay.c" 
+gcc -o VehicleControlSystem.exe "src\\EngineTemperatureHandler.o" "src\\OptionsDisplaying.o" "src\\TemperatureHandler.o" "src\\TrafficLightHandler.o" "src\\TurnOnMenuDisplay.o" "src\\VehicleControlSystem.o" 
+23:33:24 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TurnOnMenuDisplay.o" "..\\src\\TurnOnMenuDisplay.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\VehicleControlSystem.o" "..\\src\\VehicleControlSystem.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TrafficLightHandler.o" "..\\src\\TrafficLightHandler.c" 
+gcc -o VehicleControlSystem.exe "src\\EngineTemperatureHandler.o" "src\\OptionsDisplaying.o" "src\\TemperatureHandler.o" "src\\TrafficLightHandler.o" "src\\TurnOnMenuDisplay.o" "src\\VehicleControlSystem.o" 
+23:34:09 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\VehicleControlSystem.o" "..\\src\\VehicleControlSystem.c" 
+gcc -o VehicleControlSystem.exe "src\\EngineTemperatureHandler.o" "src\\OptionsDisplaying.o" "src\\TemperatureHandler.o" "src\\TrafficLightHandler.o" "src\\TurnOnMenuDisplay.o" "src\\VehicleControlSystem.o" 
+23:34:55 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\VehicleControlSystem.o" "..\\src\\VehicleControlSystem.c" 
+gcc -o VehicleControlSystem.exe "src\\EngineTemperatureHandler.o" "src\\OptionsDisplaying.o" "src\\TemperatureHandler.o" "src\\TrafficLightHandler.o" "src\\TurnOnMenuDisplay.o" "src\\VehicleControlSystem.o" 
+23:36:24 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TurnOnMenuDisplay.o" "..\\src\\TurnOnMenuDisplay.c" 
+gcc -o VehicleControlSystem.exe "src\\EngineTemperatureHandler.o" "src\\OptionsDisplaying.o" "src\\TemperatureHandler.o" "src\\TrafficLightHandler.o" "src\\TurnOnMenuDisplay.o" "src\\VehicleControlSystem.o" 
+23:37:19 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TrafficLightHandler.o" "..\\src\\TrafficLightHandler.c" 
+gcc -o VehicleControlSystem.exe "src\\EngineTemperatureHandler.o" "src\\OptionsDisplaying.o" "src\\TemperatureHandler.o" "src\\TrafficLightHandler.o" "src\\TurnOnMenuDisplay.o" "src\\VehicleControlSystem.o" 
+00:44:20 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TrafficLightHandler.o" "..\\src\\TrafficLightHandler.c" 
+gcc -o VehicleControlSystem.exe "src\\EngineTemperatureHandler.o" "src\\OptionsDisplaying.o" "src\\TemperatureHandler.o" "src\\TrafficLightHandler.o" "src\\TurnOnMenuDisplay.o" "src\\VehicleControlSystem.o" 
+00:44:28 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TurnOnMenuDisplay.o" "..\\src\\TurnOnMenuDisplay.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\VehicleControlSystem.o" "..\\src\\VehicleControlSystem.c" 
+gcc -o VehicleControlSystem.exe "src\\EngineTemperatureHandler.o" "src\\OptionsDisplaying.o" "src\\TemperatureHandler.o" "src\\TrafficLightHandler.o" "src\\TurnOnMenuDisplay.o" "src\\VehicleControlSystem.o" 
+00:45:01 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TurnOnMenuDisplay.o" "..\\src\\TurnOnMenuDisplay.c" 
+gcc -o VehicleControlSystem.exe "src\\EngineTemperatureHandler.o" "src\\OptionsDisplaying.o" "src\\TemperatureHandler.o" "src\\TrafficLightHandler.o" "src\\TurnOnMenuDisplay.o" "src\\VehicleControlSystem.o" 
+00:51:18 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TurnOnMenuDisplay.o" "..\\src\\TurnOnMenuDisplay.c" 
+gcc -o VehicleControlSystem.exe "src\\EngineTemperatureHandler.o" "src\\OptionsDisplaying.o" "src\\TemperatureHandler.o" "src\\TrafficLightHandler.o" "src\\TurnOnMenuDisplay.o" "src\\VehicleControlSystem.o" 
+C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file VehicleControlSystem.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:51:38 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -o VehicleControlSystem.exe "src\\EngineTemperatureHandler.o" "src\\OptionsDisplaying.o" "src\\TemperatureHandler.o" "src\\TrafficLightHandler.o" "src\\TurnOnMenuDisplay.o" "src\\VehicleControlSystem.o" 
+C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file VehicleControlSystem.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:51:53 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -o VehicleControlSystem.exe "src\\EngineTemperatureHandler.o" "src\\OptionsDisplaying.o" "src\\TemperatureHandler.o" "src\\TrafficLightHandler.o" "src\\TurnOnMenuDisplay.o" "src\\VehicleControlSystem.o" 
+C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file VehicleControlSystem.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:52:37 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -o VehicleControlSystem.exe "src\\EngineTemperatureHandler.o" "src\\OptionsDisplaying.o" "src\\TemperatureHandler.o" "src\\TrafficLightHandler.o" "src\\TurnOnMenuDisplay.o" "src\\VehicleControlSystem.o" 
+C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file VehicleControlSystem.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:53:27 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\VehicleControlSystem.o" "..\\src\\VehicleControlSystem.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TemperatureHandler.o" "..\\src\\TemperatureHandler.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TurnOnMenuDisplay.o" "..\\src\\TurnOnMenuDisplay.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EngineTemperatureHandler.o" "..\\src\\EngineTemperatureHandler.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TrafficLightHandler.o" "..\\src\\TrafficLightHandler.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\OptionsDisplaying.o" "..\\src\\OptionsDisplaying.c" 
+gcc -o VehicleControlSystem.exe "src\\EngineTemperatureHandler.o" "src\\OptionsDisplaying.o" "src\\TemperatureHandler.o" "src\\TrafficLightHandler.o" "src\\TurnOnMenuDisplay.o" "src\\VehicleControlSystem.o" 
+Info: Nothing to build for VehicleControlSystem
+01:04:36 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TurnOnMenuDisplay.o" "..\\src\\TurnOnMenuDisplay.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TrafficLightHandler.o" "..\\src\\TrafficLightHandler.c" 
+gcc -o VehicleControlSystem.exe "src\\EngineTemperatureHandler.o" "src\\OptionsDisplaying.o" "src\\TemperatureHandler.o" "src\\TrafficLightHandler.o" "src\\TurnOnMenuDisplay.o" "src\\VehicleControlSystem.o" 
+01:04:51 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\OptionsDisplaying.o" "..\\src\\OptionsDisplaying.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TurnOnMenuDisplay.o" "..\\src\\TurnOnMenuDisplay.c" 
+gcc -o VehicleControlSystem.exe "src\\EngineTemperatureHandler.o" "src\\OptionsDisplaying.o" "src\\TemperatureHandler.o" "src\\TrafficLightHandler.o" "src\\TurnOnMenuDisplay.o" "src\\VehicleControlSystem.o" 
+01:08:27 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EngineTemperatureHandler.o" "..\\src\\EngineTemperatureHandler.c" 
+gcc -o VehicleControlSystem.exe "src\\EngineTemperatureHandler.o" "src\\OptionsDisplaying.o" "src\\TemperatureHandler.o" "src\\TrafficLightHandler.o" "src\\TurnOnMenuDisplay.o" "src\\VehicleControlSystem.o" 
+01:47:54 **** Incremental Build of configuration Debug for project VehicleControlSystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\OptionsDisplaying.o" "..\\src\\OptionsDisplaying.c" 
+gcc -o VehicleControlSystem.exe "src\\EngineTemperatureHandler.o" "src\\OptionsDisplaying.o" "src\\TemperatureHandler.o" "src\\TrafficLightHandler.o" "src\\TurnOnMenuDisplay.o" "src\\VehicleControlSystem.o" 
+Info: Nothing to build for VehicleControlSystem

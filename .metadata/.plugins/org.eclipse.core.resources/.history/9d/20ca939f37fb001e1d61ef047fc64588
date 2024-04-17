@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "VehicleStates.h"
+#include "OptionsDispalying.h"
+
+
+int main(void) {
+//	2 lines from the docs to i/o with a user
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+
+//	Variables declaration:
+	states state;
+
+//	Displaying the system options and taking the input:
+	displayOptions((int *)&state);
+
+//	processing the input:
+	if(state==quitSystem)
+		printf("%s\n","quitSystem");
+//		return EXIT_SUCCESS;
+//	else if(state==turnOff)
+//		while(state==turnOff)
+//			displayOptions();
+
+
+
+
+
+
+
+	return EXIT_SUCCESS;
+}

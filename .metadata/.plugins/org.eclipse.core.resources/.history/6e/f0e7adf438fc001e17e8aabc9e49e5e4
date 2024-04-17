@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "TemperatureHandler.h"
+
+void trafficLightHandler(int * speed){
+	char tState;
+	printf("Enter the traffic light state:\n");
+	printf("G: green\nO: yellow\nR: red\n");
+	fflush(stdout);
+	scanf(" %c",&tState);
+	switch(tState){
+	case 'G':
+		*speed=100;
+		break;
+	case 'O':
+		*speed=30;
+		break;
+	case 'R':
+		*speed=0;
+		break;
+	}
+	printf("Vehicle Speed = %d km/hr\n",*speed);
+}
